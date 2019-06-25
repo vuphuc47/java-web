@@ -1,0 +1,372 @@
+@charset "utf-8";
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 14px;
+}
+
+/* start login css */
+#body-login {
+	background-color: #00909C;
+}
+
+/* start css page login */
+#body-flex-login {
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+#container-login {
+	display: flex;
+	width: 810px;
+	height: 600px;
+	background-color: white;
+}
+
+#container-login-left {
+	display: flex;
+	width: 380px;
+	height: 600px;
+	justify-content: space-between;
+	flex-direction: column;
+	background-image: linear-gradient(45deg, rgba(237, 69, 69, 0.73) 55%,
+		rgba(196, 196, 196, 0.69)), url("../images/background.png");
+	background-position: center;
+	background-size: cover;
+	padding: 0 16px;
+}
+
+.header-login {
+	margin-top: 32px;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+
+#welcome {
+	font-size: 48px;
+}
+
+#text-hint {
+	font-size: 12px;
+	opacity: 0.7;
+}
+
+.icon {
+	width: 15x;
+	height: 15px;
+}
+
+.header-bot-left span {
+	color: white;
+	margin-left: 8px;
+}
+
+.header-bot-left {
+	margin-bottom: 64px;
+}
+
+#container-login-right {
+	padding: 0 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex: 1;
+}
+
+#header-top-right {
+	font-size: 20px;
+	color: #B7B7B7;
+}
+
+.actived {
+	color: #DA7C79;
+	text-decoration: none;
+}
+
+#icon-login {
+	align-self: flex-end;
+	margin-bottom: 16px;
+}
+
+.icon-fb {
+	width: 40px;
+	height: 40px;
+	transition: all .3s;
+}
+
+.icon-gg {
+	width: 40px;
+	height: 40px;
+	transition: all .3s;
+}
+
+.buttom {
+	height: 38px;
+	border: 0;
+	background-color: #00909C;
+	width: 100%;
+	margin-top: 24px;
+	color: white;
+	font-size: 14px;
+	transition: all .3s;
+	text-align: center;
+	cursor: pointer;
+}
+
+.icon-email {
+	background: url(. ./ images/ envelope(1) .png) no-repeat scroll 16px
+		13px;
+	height: 38px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 100%;
+	transition: all .3s;
+}
+
+.icon-password {
+	background: url(. ./ images/ lock(1) .png) no-repeat scroll 16px 13px;
+	height: 38px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 100%;
+	transition: all .3s;
+}
+
+.container-SignIn{
+	margin-top: 150px !important;
+}
+
+.container-SignUp{
+	margin-top: 150px;
+}
+
+#icon-login .icon-fb:hover, #icon-login .icon-fb:active {
+	transform: scale(1.1);
+}
+
+#icon-login .icon-gg:hover, #icon-login .icon-gg:active {
+	transform: scale(1.1);
+}
+
+.buttom:hover, .buttom:active {
+	transform: scale(1.1);
+}
+
+.icon-email:hover, .icon-email:active {
+	transform: scale(1.1);
+}
+
+.icon-password:hover, .icon-password:active {
+	transform: scale(1.1);
+}
+/* end css page login */
+/* ---------------------------------------------------- */
+/*----------------------Page Home-------------- */
+/* ---------------------------------------------------- */
+
+/* --------------HEADER---------------- */
+#header {
+	height: 664px;
+	background: linear-gradient(rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)),
+		url("../images/background02.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.none-nav {
+	background: none !important;
+	border: none !important;
+}
+
+.navbar-center {
+	margin-left: 30% !important;
+}
+
+.navbar-nav a {
+	color: white !important;
+}
+
+.active>a {
+	background: none !important;
+	/* color: blue !important; */
+	font-weight: bold !important;
+}
+
+.open>a {
+	background: none !important;
+	/* color: blue !important; */
+	font-weight: bold !important;
+}
+
+.dropdown-menu {
+	background: none !important;
+}
+
+.even-header {
+	text-align: center;
+	margin-top: 216px;
+}
+
+.even-header>span {
+	color: white;
+	font-weight: 150% !important;
+}
+
+.even-header>button {
+	color: white;
+	background: black;
+	border: black !important;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media ( max-width : 575.98px) {
+	.navbar-center {
+		margin-left: 0% !important;
+	}
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media ( max-width : 767.98px) {
+	.navbar-center {
+		margin-left: 0% !important;
+	}
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media ( max-width : 991.98px) {
+	.navbar-center {
+		margin-left: 8% !important;
+	}
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media ( max-width : 1199.98px) {
+	...
+}
+
+/* -----------BODY------------- */
+.icon-info {
+	width: 48px;
+	height: 48px;
+}
+
+#info {
+	text-align: center;
+	margin-top: 48px;
+}
+
+#title-product {
+	text-align: center;
+	margin-top: 100px;
+	font-size: 32px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.product img {
+	height: 256px;
+}
+
+.product {
+	border: 1px solid #ccc;
+	margin-left: 12px;
+	margin-right: 12px;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin-top: 46px;
+	padding-bottom: 16px;
+}
+
+.price {
+	font-size: 16px;
+	color: red;
+	margin-bottom: 16px;
+	padding-bottom: 16px;
+}
+
+/*------------------FOOTER-----------------  */
+#footer {
+	margin-top: 42px;
+	color: white;
+	background-image: url("../images/background-footer.jpg");
+	background-position: center; background-repeat : no-repeat;
+	background-size : cover;
+	padding: 32px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#footer p {
+	text-align: center;
+}
+
+.titler-footer {
+	font-size: 32px;
+}
+
+#footer input[type=email]{
+	background-color: #B7B7B7;
+	height: 28px;
+	width: 100%;
+	margin-bottom: 5px;
+	border: none;
+	color: black !important;
+}
+
+#footer textarea{
+	background-color: #B7B7B7;
+	width: 100%;
+	margin-bottom: 5px;
+	color: black !important;
+	border: none;
+}
+
+#footer input[type=submit]{
+	width: 100%;
+	background-color: #B7B7B7;
+	color: black !important;
+	border: none;
+	height: 28px;
+}
+
+/*----------------------PAGE CHI TIET------------------------- */
+
+#header2{
+	background-color: black;
+}
+
+#imgspct{
+	max-width: 100%;
+}
+
+#page-chitiet{
+	margin-top: 16px;
+}
+
+/*----------------------MeNu------------------------- */
+/*----------------------PAGE CHI TIET------------------------- */
+ul{
+	list-style-type: none;
+}
+
+.mymenu li > ul{
+	display: none;
+}
+
+.mymenu li:hover > ul{
+	display: block;
+}
+
+.mymenu{
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px 0;
+	cursor: pointer;
+}
