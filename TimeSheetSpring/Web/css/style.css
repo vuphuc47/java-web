@@ -1,0 +1,82 @@
+html{font-family: sans-serif;}
+body{margin: 0; color: #333;}
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+h1, h2, h3{
+	margin: 0;
+}
+.container{
+	margin: 0 5px;
+}
+.nav{
+	background-color: #003e52;
+}
+.nav-right{
+	float: right;
+}
+.nav-right li{
+	display: inline;
+	padding: 0 10px;
+}
+.nav a{
+	color: #fff;
+}
+.clr{
+	clear: both;
+}
+.brand{
+	font: bold 48px/50px tahoma;
+	color: #fff;
+	padding: 5px;
+	float: left;
+}
+.main{
+	margin: 10px 0;
+}
+.table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.table td, .table th{
+	border: 1px solid #ddd;
+	padding: 5px;
+}
+.table-bordered, .table-bordered td, .table-bordered th{
+	border: 1px solid #ddd;
+}
+.footer{
+	background-color: #003e52;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+}
+.yellow{
+	background-color: yellow;
+}
+.center{
+	text-align: center;
+}
+.right{
+	text-align: right;
+}
+.fade{
+	width: 100px;
+	margin: auto;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+.fadeIn(){
+	visibility: visible;
+	
+}
+.fadeOut(){
+	visibility: hidden;
+	
+}

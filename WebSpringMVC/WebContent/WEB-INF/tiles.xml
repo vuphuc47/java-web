@@ -1,0 +1,49 @@
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="bg" template="/template/bg.jsp">
+		<put-attribute name="title" value="Title" />
+	</definition>
+	<definition name="home.index" extends="bg">
+		<put-attribute name="content" value="Mini Shop" />
+		<put-attribute name="content"
+			value="/views/home/index.jsp" />
+	</definition>
+	<definition name="home.browse" extends="bg">
+		<put-attribute name="content" value="Browse Mini Shop" />
+		<put-attribute name="content"
+			value="/views/home/browse.jsp" />
+	</definition>
+	<definition name="home.detail" extends="bg">
+		<put-attribute name="content" value="Detail Mini Shop" />
+		<put-attribute name="content"
+			value="/views/home/detail.jsp" />
+	</definition>
+	<definition name="auth.signin" extends="bg">
+		<put-attribute name="content" value="Sign In" />
+		<put-attribute name="content"
+			value="/views/auth/signin.jsp" />
+	</definition>
+	<definition name="auth.signup" extends="bg">
+		<put-attribute name="content" value="Sign Up" />
+		<put-attribute name="content"
+			value="/views/auth/signup.jsp" />
+	</definition>
+	<definition name="category.index" extends="bg">
+		<put-attribute name="content" value="Sign Up" />
+		<put-attribute name="content"
+			value="/views/category/index.jsp" />
+	</definition>
+	<definition name="category.add" extends="bg">
+		<put-attribute name="content" value="Sign Up" />
+		<put-attribute name="content"
+			value="/views/category/add.jsp" />
+	</definition>
+	<definition name="category.edit" extends="bg">
+		<put-attribute name="content" value="Sign Up" />
+		<put-attribute name="content"
+			value="/views/category/edit.jsp" />
+	</definition>
+
+</tiles-definitions>

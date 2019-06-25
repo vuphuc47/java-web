@@ -1,0 +1,53 @@
+body{
+	margin: 0;
+}
+.container{
+	margin: 0 10px;
+}
+.nav{
+	background-color: #003e52;
+}
+.nav a{
+	color: #fff;
+}
+.nav::after{
+	content: '';
+	clear: both;
+	display: table;
+}
+.brand{
+	float: left;
+	padding: 10px 0;
+	font: bold 40px/40px tahoma;
+}
+.nav-right{
+	float: right;
+}
+.nav-right li{
+	display: inline-block;
+}
+.col-3, .col-9, .col-4{
+	float: left;
+}
+.col-3{
+	width: 25%;
+}
+.col-9{
+	width: 75%;
+}
+.col-4{
+	width: 33.33333333%;
+}
+.row::after{
+	content: '';
+	clear: both;
+	display: table;
+}
+.img{
+	width: 100%;
+}
+.error{
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
